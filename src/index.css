@@ -1,5 +1,6 @@
-@import 'tailwindcss';
-@import '@trenaryja/ui/css';
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@trenaryja/ui/css";
 @source '../node_modules/@trenaryja/ui';
 
 /* `daisyui/index.js` workaround for vite 8 — drop `/index.js` once @tailwindcss/vite ships PR #19949. */
