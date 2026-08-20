@@ -13,9 +13,11 @@
 		"reinstall": "rm -rf node_modules bun.lock && bun install"
 	},
 	"dependencies": {
+		"@t3-oss/env-core": "^0.13.11",
 		"@trenaryja/ui": "^0.0.1-37",
 		"react": "^19.2.8",
-		"react-dom": "^19.2.8"
+		"react-dom": "^19.2.8",
+		"zod": "^4.4.3"
 	},
 	"devDependencies": {
 		"@rolldown/plugin-babel": "^0.2",
