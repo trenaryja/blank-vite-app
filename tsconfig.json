@@ -2,7 +2,5 @@
 	"extends": "@trenaryja/config/tsconfig/vite",
 	"compilerOptions": {
 		"paths": { "@/*": ["./src/*"] }
-	},
-	"include": ["**/*.ts", "**/*.tsx"],
-	"exclude": ["node_modules", "dist"]
+	}
 }
